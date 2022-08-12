@@ -1,0 +1,123 @@
+/* ###### GOOGLE FONTS  ###### */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
+
+/* ###### BASIC STYLES ###### */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ###### MAIN NAVBAR STYLES ###### */
+.main-nav {
+  padding: 1rem 0;
+  width: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav .left-nav {
+  display: flex;
+  margin-left: 2rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.main-nav .left-nav .emb-img {
+  width: 261px;
+  height: 62px;
+  cursor: pointer;
+}
+
+.main-nav .left-nav .gi-img {
+  width: 36px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.main-nav .right-nav {
+  display: flex;
+  gap: 2rem;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.main-nav .right-nav .lang-btn {
+  cursor: pointer;
+}
+
+.main-nav .right-nav .lang-btn i {
+  margin-bottom: -2px;
+  margin-left: 2px;
+}
+
+.main-nav .right-nav .login {
+  color: #374dcd;
+  cursor: pointer;
+}
+.main-nav .right-nav .signup {
+  background-color: #374dcd;
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.main-nav .right-nav .signup:hover {
+  color: #fff;
+  background-color: #2f42ad;
+}
+
+/* ###### SECONDARY NAVBAR STYLES ###### */
+.secondary-nav {
+  background-color: #374dcd;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.secondary-nav ul {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondary-nav ul li a {
+  color: #fff;
+}
+
+.secondary-nav ul li a i {
+  margin-bottom: -2px;
+  margin-left: 2px;
+}
+
+.secondary-nav ul li a .search-btn {
+  border-radius: 50%;
+  background-color: #fff;
+  color: #374dcd;
+  padding: 0.5rem;
+}
+
+.secondary-nav ul .contact-btn {
+  background-color: #fff;
+  color: #374dcd;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
